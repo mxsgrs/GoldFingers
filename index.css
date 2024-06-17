@@ -290,7 +290,7 @@ a {
     text-decoration: none !important;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 620px) and (max-width: 1024px) {
     .wrapper {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
