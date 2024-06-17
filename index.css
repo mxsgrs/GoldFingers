@@ -139,7 +139,7 @@ ion-icon {
 .hands-flowers {
     background-image: url("./images/hands-flowers.jpg");
     background-size: cover;
-    min-height: 120px;
+    min-height: 220px;
     padding: 2rem;
 }
 
@@ -269,8 +269,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus, .appleLinks a {
     }
 
     .visit { grid-area: 1 / 1 / 2 / 13; }
-    .institute { grid-area: 2 / 1 / 3 / 7; }
-    .hands-flowers { grid-area: 2 / 7 / 3 / 13; }
+    .hands-flowers { grid-area: 2 / 1 / 3 / 13; }
     .products { grid-area: 4 / 1 / 5 / 13; }
     .shop-description { grid-area: 3 / 1 / 4 / 13; }
     .manicure { grid-area: 5 / 1 / 6 / 7; }
