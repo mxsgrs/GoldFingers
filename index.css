@@ -136,12 +136,6 @@ ion-icon {
     min-height: 400px;
 }
 
-.outline-flowers {
-    display: none;
-    background-image: url("./images/blue-flowers.png");
-    min-height: 100px;
-}
-
 .hands-flowers {
     background-image: url("./images/hands-flowers.jpg");
     background-size: cover;
@@ -327,8 +321,7 @@ footer {
 
     .visit { grid-area: 1 / 1 / 2 / 13; }
     .institute { grid-area: 2 / 1 / 4 / 5; }
-    .outline-flowers { grid-area: 2 / 5 / 3 / 13; display: initial; }
-    .hands-flowers { grid-area: 3 / 5 / 4 / 13; }
+    .hands-flowers { grid-area: 2 / 5 / 4 / 13; }
     .products { grid-area: 4 / 1 / 5 / 5; }
     .shop-description { grid-area: 4 / 5 / 5 / 13; }
     .manicure { grid-area: 5 / 1 / 6 / 7; }
