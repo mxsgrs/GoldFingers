@@ -256,30 +256,37 @@ footer {
 }
 
 a {
+    color: var(--font-quaternary-color);
     text-decoration: none !important;
 }
 
     a:link {
+        color: var(--font-quaternary-color);
         text-decoration: none !important;
     }
 
     a:visited {
+        color: var(--font-quaternary-color);
         text-decoration: none !important;
     }
 
     a:hover {
+        color: var(--font-quaternary-color);
         text-decoration: none !important;
     }
 
     a:active {
+        color: var(--font-quaternary-color);
         text-decoration: none !important;
     }
 
     a:focus {
+        color: var(--font-quaternary-color);
         text-decoration: none !important;
     }
 
-.appleLinks {
+.appleLinks a {
+    color: var(--font-quaternary-color);
     text-decoration: none !important;
 }
 
