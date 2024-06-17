@@ -74,6 +74,7 @@ main {
             .visit .message .brand .subtitle {
                 font-size: 1.2rem;
                 font-weight: normal;
+                color: var(--font-senary-color);
                 margin: 0;
             }
 
@@ -302,7 +303,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus, .appleLinks a {
             }
 
     .institute {
-        display: initial;
+        display: none;
     }
 
     .products {
@@ -341,6 +342,10 @@ a, a:link, a:visited, a:hover, a:active, a:focus, .appleLinks a {
         background-size: cover;
         padding: 2.5rem;
     }
+
+        .visit .message .brand .subtitle {
+            color: inherit;
+        }
 
         .visit .message .welcome .title {
             font-size: 6.5rem;
