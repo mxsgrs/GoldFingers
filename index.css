@@ -255,38 +255,8 @@ footer {
     display: inline-grid;
 }
 
-a {
+a, a:link, a:visited, a:hover, a:active, a:focus, .appleLinks a {
     color: var(--font-quaternary-color);
-    text-decoration: none !important;
-}
-
-    a:link {
-        color: var(--font-quaternary-color) !important;
-        text-decoration: none !important;
-    }
-
-    a:visited {
-        color: var(--font-quaternary-color) !important;
-        text-decoration: none !important;
-    }
-
-    a:hover {
-        color: var(--font-quaternary-color) !important;
-        text-decoration: none !important;
-    }
-
-    a:active {
-        color: var(--font-quaternary-color) !important;
-        text-decoration: none !important;
-    }
-
-    a:focus {
-        color: var(--font-quaternary-color) !important;
-        text-decoration: none !important;
-    }
-
-.appleLinks a {
-    color: var(--font-quaternary-color) !important;
     text-decoration: none !important;
 }
 
