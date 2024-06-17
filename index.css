@@ -52,11 +52,11 @@ main {
 .visit {
     width: auto;
     background-color: #6c8e97;
-    background-size: cover;
     padding: 1.5rem;
 }
 
     .visit .message {
+        max-width: 508px;
         color: var(--font-tertiary-color);
         text-shadow: 0 0 10px var(--font-shadow-color);
     }
@@ -281,7 +281,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus, .appleLinks a {
     .card { margin-top: 0; }
 
     .visit {
-        background-image: url("./images/blue-nails.jpg");
+        background-color: #6c8e97;
         padding: 2.5rem;
     }
 
@@ -338,28 +338,25 @@ a, a:link, a:visited, a:hover, a:active, a:focus, .appleLinks a {
 
     .visit {
         background-image: url("./images/blue-nails.jpg");
+        background-size: cover;
         padding: 2.5rem;
     }
 
-        .visit .message {
-            width: 50%;
+        .visit .message .welcome .title {
+            font-size: 6.5rem;
         }
 
-            .visit .message .welcome .title {
-                font-size: 6.5rem;
-            }
+        .visit .message .address {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-auto-rows: minmax(100px, auto);
+            gap: 2rem;
+        }
 
-            .visit .message .address {
-                display: grid;
-                grid-template-columns: auto 1fr;
-                grid-auto-rows: minmax(100px, auto);
-                gap: 2rem;
+            .visit .message .address .details:last-child {
+                font-size: 1.2rem;
+                display: inherit;
             }
-
-                .visit .message .address .details:last-child {
-                    font-size: 1.2rem;
-                    display: inherit;
-                }
 
     .institute {
         display: initial;
