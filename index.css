@@ -174,7 +174,7 @@ ion-icon {
 }
 
 .products {
-    background-image: url("./images/nails-polish.jpg");
+    background-image: url("./images/nails-polish-mobile.jpg");
     background-size: cover;
     min-height: 400px;
 }
@@ -398,6 +398,10 @@ a {
 
     .hands-flowers h2 {
         visibility: initial;
+    }
+
+    .products {
+        background-image: url("./images/nails-polish.jpg");
     }
 
     .shop-description .greetings {
