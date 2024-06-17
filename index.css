@@ -261,32 +261,32 @@ a {
 }
 
     a:link {
-        color: var(--font-quaternary-color);
+        color: var(--font-quaternary-color) !important;
         text-decoration: none !important;
     }
 
     a:visited {
-        color: var(--font-quaternary-color);
+        color: var(--font-quaternary-color) !important;
         text-decoration: none !important;
     }
 
     a:hover {
-        color: var(--font-quaternary-color);
+        color: var(--font-quaternary-color) !important;
         text-decoration: none !important;
     }
 
     a:active {
-        color: var(--font-quaternary-color);
+        color: var(--font-quaternary-color) !important;
         text-decoration: none !important;
     }
 
     a:focus {
-        color: var(--font-quaternary-color);
+        color: var(--font-quaternary-color) !important;
         text-decoration: none !important;
     }
 
 .appleLinks a {
-    color: var(--font-quaternary-color);
+    color: var(--font-quaternary-color) !important;
     text-decoration: none !important;
 }
 
