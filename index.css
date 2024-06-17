@@ -121,6 +121,7 @@ main {
                     display: flex;
                     justify-content: space-between;
                     min-height: 32px;
+                    margin-top: 1.2rem;
                 }
 
 ion-icon {
@@ -300,6 +301,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus, .appleLinks a {
             .visit .message .address .details:last-child {
                 font-size: 1.2rem;
                 display: inherit;
+                margin-top: 1rem;
             }
 
     .institute {
@@ -361,6 +363,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus, .appleLinks a {
             .visit .message .address .details:last-child {
                 font-size: 1.2rem;
                 display: inherit;
+                margin-top: 1rem;
             }
 
     .institute {
